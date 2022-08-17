@@ -1,0 +1,36 @@
+.CarousselPage {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    height: 400px;
+    background-color: white;
+
+
+}
+
+.CarousselTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 600px;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
+
+
+.CarousselGalerie {
+    display: flex;
+    overflow: scroll;
+}
+
+.CarousselGalerie img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(143, 143, 143);
+
+}

@@ -1,0 +1,45 @@
+.UpHeader {
+    background-color: black;
+    display: flex;
+}
+
+.leftPartHeader {
+    width: 30%;
+}
+
+.centralPartHeader {
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.rightPartHeader {
+    width: 30%;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: #9DBAC6;
+
+}
+
+.categories button {
+
+
+    margin: 0px 8%;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.categories button:hover {
+    color: black;
+}
